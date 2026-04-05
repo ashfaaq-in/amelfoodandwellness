@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="podGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#40916c" />
+      <stop offset="100%" stop-color="#1b4332" />
+    </linearGradient>
+  </defs>
+  <!-- Curving, elegant pod shape -->
+  <path d="M14,54 C4,34 20,12 42,6 C48,22 56,48 40,58 C26,66 18,62 14,54 Z" fill="url(#podGrad)" />
+  <!-- Golden soy beans inside -->
+  <circle cx="34" cy="22" r="6" fill="#c8a96e" />
+  <circle cx="28" cy="36" r="6" fill="#c8a96e" />
+  <circle cx="24" cy="50" r="5" fill="#c8a96e" />
+  
+  <!-- Subtle bean creases -->
+  <path d="M33,18 Q37,22 33,26" stroke="#1b4332" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M27,32 Q31,36 27,40" stroke="#1b4332" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M23,46 Q26,50 23,54" stroke="#1b4332" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>
